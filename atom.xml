@@ -8,21 +8,7 @@
     <author>
       <name>鸡头</name>
     </author>
-    <updated>2022-02-23T11:19:15.000Z</updated>
-    <entry>
-        <id>https://chicken-head.life/test-my-site-1/</id>
-        <title>test_my_site</title>
-        <link rel="alternate" href="https://chicken-head.life/test-my-site-1/"/>
-        <content type="html"></content>
-        <updated>2022-02-23T11:19:15.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://chicken-head.life/test-my-site/</id>
-        <title>test_my_site</title>
-        <link rel="alternate" href="https://chicken-head.life/test-my-site/"/>
-        <content type="html"></content>
-        <updated>2022-02-23T09:00:40.000Z</updated>
-    </entry>
+    <updated>2022-02-23T08:11:17.168Z</updated>
     <entry>
         <id>https://chicken-head.life/hello-world/</id>
         <title>Hello World</title>

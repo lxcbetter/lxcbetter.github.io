@@ -7,22 +7,6 @@
     "home_page_url": "https://chicken-head.life",
     "items": [
         {
-            "id": "https://chicken-head.life/test-my-site-1/",
-            "url": "https://chicken-head.life/test-my-site-1/",
-            "title": "test_my_site",
-            "date_published": "2022-02-23T11:19:15.000Z",
-            "content_html": "",
-            "tags": []
-        },
-        {
-            "id": "https://chicken-head.life/test-my-site/",
-            "url": "https://chicken-head.life/test-my-site/",
-            "title": "test_my_site",
-            "date_published": "2022-02-23T09:00:40.000Z",
-            "content_html": "",
-            "tags": []
-        },
-        {
             "id": "https://chicken-head.life/hello-world/",
             "url": "https://chicken-head.life/hello-world/",
             "title": "Hello World",
