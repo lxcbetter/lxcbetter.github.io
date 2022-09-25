@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>电力电子器件</title>
+    <link href="/posts/Power%20Electronics%20Device/"/>
+    <url>/posts/Power%20Electronics%20Device/</url>
+    
+    <content type="html"><![CDATA[<p class="note note-primary">博主使用的教材是XJTU的王兆安、刘进军教授所编著的，机械工业出版社所出版的《电力电子技术》，接下来的文章都是按照教材顺序来写的。</p><p><img src="https://cdn.jsdelivr.net/gh/lxcbetter/blog_image@main/Power-Electronics-Technology.jpg" alt="电力电子技术" title="电力电子技术"></p><p>下载请戳<a href="https://cloud.189.cn/web/share?code=MvM3UbmAF3Er（访问码：6zup）">这里</a></p><h1 id="电力电子器件概述"><a href="#电力电子器件概述" class="headerlink" title="电力电子器件概述"></a>电力电子器件概述</h1><h2 id="电力电子器件的概念和特征"><a href="#电力电子器件的概念和特征" class="headerlink" title="电力电子器件的概念和特征"></a>电力电子器件的概念和特征</h2><p>在电气设备或电力系统中，直接承担电能的变换或控制任务的电路被称为<strong>主电路</strong>。<strong>电力电子器件</strong>是指可直接用于处理电能的主电路中，实现电能的变换或控制的电子器件。其一般具有如下特征：</p><p>1.电力电子器件所能处理电功率的大小，也就是其承受电压和电流的能力，是其最重要的参数。<br>2.因为处理的电功率较大，为了减小本身的损耗，提高效率，电力电子器件一般都工作在<strong>开关状态</strong>。<u>导通时（通态）阻抗很小，接近于短路，管压降接近于零，而电流由外电路决定；阻断时（断态）阻抗很大，接近于断路，电流几乎为零，而管子两端电压由外电路决定。</u>因而，电力电子器件的动态特性（也就是开关特性）和参数，也是电力电子器件特性很重要的方面，有些时候甚至上升为第一位的重要方面。<br>3.在实际应用当中，电力电子器件往往需要由信息电子电路来控制。而普通的信息电子电路信号一般过小，需要中间电路进行放大，这就是所谓的驱动电路。<br>4.尽管工作在开关状态，但是电力电子器件自身的功率损耗通常仍远大于信息电子器件，因而为了保证不致于因损耗散发的热量导致器件温度过高而损坏，不仅在器件封装上比较讲究散热设计，而且在其工作时一般都还需要安装散热器。这是因为电力电子器件在导通或者阻断状态下，并不是理想的短路或者断路。导通时器件上有一定的通态压降，阻断时器件上有微小的断态漏电流流过。尽管其数值都很小，但分别与数值较大的通态电流和断态电压相作用，就形成了电力电子器件的<strong>通态损耗</strong>和<strong>断态损耗</strong>。此外，还有在电力电子器件由断态转为通态（开通过程）或者由通态转为断态（关断过程）的转换过程中产生的损耗，分别称为<strong>开通损耗</strong>和<strong>关断损耗</strong>，总称开关损耗。对某些器件来讲，驱动电路向其注入的功率也是造成器件发热的原因之一。通常来讲，除一些特殊的器件外，电力电子器件的断态漏电流都极其微小，因而<u>通态损耗是电力电子器件功率损耗的主要成因</u>。当器件的<strong>开关频率较高</strong>时，开关损耗会随之增大而可能成为器件功率损耗的<strong>主要因素</strong>。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Study Notes</category>
+      
+      <category>电力电子技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>电力电子技术</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Calculus Preliminary Knowledge</title>
+    <link href="/posts/Preliminary-Knowledge/"/>
+    <url>/posts/Preliminary-Knowledge/</url>
+    
+    <content type="html"><![CDATA[<p class="note note-primary">博主复习数学采用的是张宇的教材，所以，接下来的文章都是按照张宇的基础30讲排序来写的。</p><p><img src="https://cdn.jsdelivr.net/gh/lxcbetter/blog_image@main/math-fundamental-30.jpg" alt="张宇考研数学30讲" title="张宇考研数学30讲"></p><p>下载请戳<a href="https://cloud.189.cn/web/share?code=IfiUfeUVBjAz（访问码：k14y）">这里</a></p><h1 id="一、函数的概念与特性"><a href="#一、函数的概念与特性" class="headerlink" title="一、函数的概念与特性"></a>一、函数的概念与特性</h1><h3 id="1-函数的概念"><a href="#1-函数的概念" class="headerlink" title="1.函数的概念"></a>1.函数的概念</h3><p>略……</p><h3 id="2-函数的特性"><a href="#2-函数的特性" class="headerlink" title="2.函数的特性"></a>2.函数的特性</h3><ul><li>有界性</li><li>单调性</li><li>奇偶性</li><li>周期性</li></ul><blockquote><p>具体就不仔细介绍了，基本上都了解。</p></blockquote><p>下面总结一些重要结论：</p><ul><li>若$ f(x) $是可导的偶函数，则$ f’(x) $是奇函数。</li><li>若$ f(x) $是可导的奇函数，则$ f’(x) $是偶函数。</li><li>若$ f(x) $是可导的周期为$ T $的周期函数，则$ f’(x) $也是以$ T $为周期的周期函数。</li><li>连续奇函数的一切原函数都是偶函数。</li><li>连续偶函数的原函数中有且仅有一个原函数是奇函数。</li><li>若连续函数$ f(x) $以$ T $为周期且$ \int_0^{T} f(x) dx = 0$，则$ f(x) $的一切原函数也以$ T $为周期。</li><li>若$ f(x) $在$ (a,b) $可导且$ f’(x) $有界，则$ f(x) $在$ (a,b) $内有界</li></ul><h1 id="二、函数的图像"><a href="#二、函数的图像" class="headerlink" title="二、函数的图像"></a>二、函数的图像</h1><h2 id="一-直角坐标系下的图像-f-x-y-0"><a href="#一-直角坐标系下的图像-f-x-y-0" class="headerlink" title="(一)直角坐标系下的图像$ (f(x,y) = 0) $"></a>(一)直角坐标系下的图像$ (f(x,y) = 0) $</h2><h3 id="1-常见图像"><a href="#1-常见图像" class="headerlink" title="1.常见图像"></a>1.常见图像</h3><h4 id="1-基本初等函数与初等函数"><a href="#1-基本初等函数与初等函数" class="headerlink" title="(1)基本初等函数与初等函数"></a>(1)基本初等函数与初等函数</h4><p>基本初等函数：常数函数、幂函数、指数函数、对数函数、三角函数、反三角函数。</p><p>大部分的图像相信大家都比较熟悉了，下面介绍几个不怎么熟悉的函数图像。</p><h5 id="i-正割函数与余割函数"><a href="#i-正割函数与余割函数" class="headerlink" title="(i)正割函数与余割函数"></a>(i)正割函数与余割函数</h5><p>正割函数$ y = \sec x$(图a)，余割函数$ y = \csc x$(图b)</p><p><img src="https://cdn.jsdelivr.net/gh/lxcbetter/blog_image@main/sec-csc-img.png" alt="正割函数与余割函数图像" title="正割函数与余割函数"></p><div class="table-container"><table><thead><tr><th style="text-align:center"></th><th style="text-align:center">$ y= \sec x$</th><th style="text-align:center">$ y= \csc x$</th></tr></thead><tbody><tr><td style="text-align:center">定义域</td><td style="text-align:center">$ x \neq k \pi + \frac{\pi}{2} (k \in \mathbb{Z}) $</td><td style="text-align:center">$ x \neq k \pi(k \in \mathbb{Z}) $</td></tr><tr><td style="text-align:center">值域</td><td style="text-align:center">$ (- \infty , -1] \cup [1,+ \infty) $</td><td style="text-align:center">$ (- \infty , -1] \cup [1,+ \infty) $</td></tr><tr><td style="text-align:center">奇偶性</td><td style="text-align:center">偶函数</td><td style="text-align:center">奇函数</td></tr><tr><td style="text-align:center">周期性</td><td style="text-align:center">$ 2\pi $</td><td style="text-align:center">$ 2\pi $</td></tr></tbody></table></div><div class="note note-danger">            <p>未完待续……</p>          </div>]]></content>
+    
+    
+    <categories>
+      
+      <category>Study Notes</category>
+      
+      <category>考研</category>
+      
+      <category>高等数学</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Study</tag>
+      
+      <tag>Mathematics</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Start my blogging journey</title>
+    <link href="/posts/Start-my-blogging-journey/"/>
+    <url>/posts/Start-my-blogging-journey/</url>
+    
+    <content type="html"><![CDATA[<p>After several months of building my blog, I finally set up my blog successfully.</p><p>From now on, I will begin to write blogs in this website.</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/posts/hello-world/"/>
+    <url>/posts/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
