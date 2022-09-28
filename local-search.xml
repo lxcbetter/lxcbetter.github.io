@@ -4,13 +4,29 @@
   
   
   <entry>
-    <title>Rectifier</title>
+    <title>整流电路</title>
     <link href="/posts/Rectifier/"/>
     <url>/posts/Rectifier/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p class="note note-primary">博主使用的教材是XJTU的王兆安、刘进军教授所编著的，机械工业出版社所出版的《电力电子技术》，接下来的文章都是按照教材顺序来写的。</p><p><img src="https://cdn.jsdelivr.net/gh/lxcbetter/blog_image@main/Power-Electronics-Technology.jpg" alt="电力电子技术" title="电力电子技术"></p><p>下载请戳<a href="https://cloud.189.cn/web/share?code=MvM3UbmAF3Er（访问码：6zup）">这里</a></p><h1 id="单相可控整流电路"><a href="#单相可控整流电路" class="headerlink" title="单相可控整流电路"></a>单相可控整流电路</h1><h2 id="单相半波可控整流电路"><a href="#单相半波可控整流电路" class="headerlink" title="单相半波可控整流电路"></a>单相半波可控整流电路</h2><h3 id="1-带电阻负载的工作情况"><a href="#1-带电阻负载的工作情况" class="headerlink" title="1.带电阻负载的工作情况"></a>1.带电阻负载的工作情况</h3><p><img src="https://cdn.jsdelivr.net/gh/lxcbetter/blog_image@main/Single-Phase-Half-Wave-Controlled-Rectifier.jpg" alt="Single-Phase-Half-Wave-Controlled-Rectifier" title="Single Phase Half Wave Controlled Rectifier"></p><p>如图所示为单相半波可控整流电路的原理图。变压器$T$起变换电压和隔离的作用，其一次电压和二次电压瞬时值分别用$u_{1}$和$u_{2}$表示，有效值分别用$U_{1}$和$U_{2}$表示，其中$U_{2}$的大小根据需要的直流输出电压$u_{\mathrm{d}}$的平均值$U_{\mathrm{d}}$确定。</p><p>在分析整流电路工作时，认为晶闸管（开关器件）为理想器件，即晶闸管导通时其管压降等于零，晶闸管阻断时其漏电流等于零。除非特意研究晶闸管的开通、关断过程，一般认为晶闸管的开通与关断过程瞬时完成。</p><p>改变触发时刻，$u_{\mathrm{d}}$和$i_{\mathrm{d}}$波形随之改变，直流输出电压$u_{\mathrm{d}}$为极性不变但瞬时值变化的脉动直流，其波形只在$u_{2}$正半周内出现，故称“半波”整流。加之电路中采用了可控器件——晶闸管，且交流输入为单相，故该电路称为单相半波可控整流电路。整流电压$u_{\mathrm{d}}$：波形在一个电源周期中只脉动1次，故该电路为单脉波整流电路。</p><p>从晶闸管开始承受正向阳极电压起，到施加触发脉冲止的电角度称为融发延迟角，用$\alpha$表示，也称触发角或控制角。晶闸管在一个电源周期中处于通态的电角度称为导通角，用$\theta$表示，$\theta = \pi - \alpha$。直流输出电压平均值为</p><script type="math/tex; mode=display">U_{\mathrm{d}}=\frac{1}{2 \pi} \int_\alpha^\pi \sqrt{2} U_2 \sin \omega t \mathrm{~d}(\omega t)=\frac{\sqrt{2} U_2}{2 \pi}(1+\cos \alpha)=0.45 U_2 \frac{1+\cos \alpha}{2}</script><p>$\alpha=0$时，整流输出电压平均值为最大，用$U_{\mathrm{d}0}$表示，$U_{\mathrm{d}0}=U_{\mathrm{d}0}=0.45U_2$。随着$\alpha$增大，$U_{\mathrm{d}}$减小，当$\alpha=\pi$时，$U_{\mathrm{d}}=0$,该电路中VT的$\alpha$移相范围为$0° \sim 180°$。可见，调节角即可控制$U_{\mathrm{d}}$的大小。这种通过控制触发脉冲的相位来控制直流输出电压大小的方式称为相位控制方式，简称相控方式。</p><h3 id="2-带阻感负载的工作情况"><a href="#2-带阻感负载的工作情况" class="headerlink" title="2.带阻感负载的工作情况"></a>2.带阻感负载的工作情况</h3><h2 id="单相桥式全控整流电路"><a href="#单相桥式全控整流电路" class="headerlink" title="单相桥式全控整流电路"></a>单相桥式全控整流电路</h2>]]></content>
     
     
+    <categories>
+      
+      <category>Study Notes</category>
+      
+      <category>电力电子技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>电力电子技术</tag>
+      
+      <tag>Electrical Engineering</tag>
+      
+    </tags>
     
   </entry>
   
